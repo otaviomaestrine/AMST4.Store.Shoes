@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fatec Taqua. 10\\AMS24\\2A\\AMST4.Store.Shoes\\AMST4.Store.Shoes.csproj": {}
+    "D:\\AMST4.Store.Shoes\\AMST4.Store.Shoes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fatec Taqua. 10\\AMS24\\2A\\AMST4.Store.Shoes\\AMST4.Store.Shoes.csproj": {
+    "D:\\AMST4.Store.Shoes\\AMST4.Store.Shoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fatec Taqua. 10\\AMS24\\2A\\AMST4.Store.Shoes\\AMST4.Store.Shoes.csproj",
+        "projectUniqueName": "D:\\AMST4.Store.Shoes\\AMST4.Store.Shoes.csproj",
         "projectName": "AMST4.Store.Shoes",
-        "projectPath": "C:\\Users\\Fatec Taqua. 10\\AMS24\\2A\\AMST4.Store.Shoes\\AMST4.Store.Shoes.csproj",
-        "packagesPath": "C:\\Users\\Fatec Taqua. 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fatec Taqua. 10\\AMS24\\2A\\AMST4.Store.Shoes\\obj\\",
+        "projectPath": "D:\\AMST4.Store.Shoes\\AMST4.Store.Shoes.csproj",
+        "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
+        "outputPath": "D:\\AMST4.Store.Shoes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fatec Taqua. 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
